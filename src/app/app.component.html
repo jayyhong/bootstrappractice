@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="card col-sm-2" *ngFor="let title of data">
+      <div class="card_header">
+        {{title.title}}
+        <div class="card_image">
+        </div>
+        <div class="card_description">
+          {{title.description}}
+        </div>
+      </div>
+    </div>
+  </div>
